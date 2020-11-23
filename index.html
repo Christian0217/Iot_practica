@@ -29,7 +29,7 @@
       firebase.initializeApp(firebaseConfig);
       var database = firebase.database();
 
-      firebase.database().set({
+      firebase.database().ref('users/' + "hola").set({
       username: "paco",
       email: "paco@gmail.com",
       });
