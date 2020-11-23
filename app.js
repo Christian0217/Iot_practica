@@ -48,4 +48,4 @@ var vm = new Vue({
   <fancy-chronometer></fancy-chronometer>
   <secure-button></secure-button>
   </div>`,
-}); //ELs paràmetres es coloquen aqui directament! veure adalt
+}); 
