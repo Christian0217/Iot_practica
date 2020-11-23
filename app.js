@@ -36,15 +36,6 @@ Vue.component('fancy-chronometer', { //genero un tag especial que podré utilitz
   }
 });
 
-//ANNOTACIONS SOBRE EL CODI "template":
-
-//El chronoLabel és una propietat que es defineix aquí i que pintarem però s'inicialitza abaix al fer el objecte Vue!
-//Fixa't que, adalt, chronoLabel està definida amb la "L" majúscula. Abaix, al html
-//no entén de majúscules/minúscules i per substituir la majúscula, posem el guió "-".
-// JS(chronoLabel) = HTML(chrono-label)
-
-//El v-if es coloca per dir que el botó (Reset2) sols apareixerà quan el valor de litres sigui més gran que 0
-//El v-on es posa per a que el html detecti que el que volem fer en aquella propietat és assignar algo a alguna vble o cridar una funció
 
 var vm = new Vue({
   el: '#app',
@@ -58,7 +49,3 @@ var vm = new Vue({
   <secure-button></secure-button>
   </div>`,
 }); //ELs paràmetres es coloquen aqui directament! veure adalt
-
-//ANNOTACIONS SOBRE EL CODI DEL "template":
-//El v-bind feia que les propietats que es posaven a un tag, s'agafessin com a variables.
-//El "label2" està definit dins l'objecte Vue!
