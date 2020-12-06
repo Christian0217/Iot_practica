@@ -2,20 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> SPA </title>
+    <title> IoT pràctica </title>
+    <link rel="shortcut icon" type="image/jpg" href="iot-icon.jpg"/>
     <script src="vue.js" charset="utf-8"></script> <!-- Incloem la llibreria on es renderitzarà -->
+    <script src="chart.js"></script>
   </head>
   <body>
 
       <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <link rel="stylesheet" href="style.css">
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
     <script src="config.js" charset="utf-8"></script>
 
-    <h1> IOT web </h1>
+    <div class="titol">
+    <h1> Temperatures mitjanes de l'any 2018 </h1>
+    </div>
 
     <div id="app">VUEJS</div>
     <script src="app.js" charset="utf-8"></script>
+
 
   </body>
 </html>
